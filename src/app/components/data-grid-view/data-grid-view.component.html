@@ -1,0 +1,13 @@
+<div class="panel">
+  <mat-card *ngFor="let data of dataSource" @fade class="example-card">
+    <mat-card-header>
+      <mat-card-title>Photo: {{data.id}}</mat-card-title>
+      <mat-card-subtitle>Camera: {{data.camera.full_name}} {{data.earth_date | date }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image class="fade-in-image" src={{data.img_src}}>
+    <mat-card-content>
+      <p>
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
