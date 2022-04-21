@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   API_ROVERS: "https://api.nasa.gov/mars-photos/api/v1/rovers/?api_key=",
   API_ROVERS_PHOTOS: "https://api.nasa.gov/mars-photos/api/v1/rovers/",
-  API_KEY: "DEMO_KEY"
+  API_KEY: "QUcR36jiwdtfwclMzeyNhCgKzOOgUejblIFPI5Fe"
 };
 
 /*
